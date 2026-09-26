@@ -1,0 +1,8 @@
+<!doctype html>
+<html lang="{{ site.Language.Locale | default site.Language.Lang }}">
+  {{- partial "header.html" . -}}
+  <body>
+    {{ block "main" . }}{{ end }} {{ if or .Params.math .IsHome }}{{ partial
+    "math.html" . }}{{ end }}
+  </body>
+</html>

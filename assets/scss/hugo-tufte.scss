@@ -1,0 +1,27 @@
+// Project shadow of the theme's SCSS entry (assets/scss/hugo-tufte.scss).
+// Identical to the upstream entry EXCEPT it does not import "tufte", the theme's
+// vendored copy of edwardtufte/tufte-css. That core is replaced by Graphics Press
+// CSS (static/css/graphics-press.css, MIT), linked in partials/header.includes.html.
+//
+// It has to be dropped rather than loaded-on-top: Graphics Press puts every rule in
+// an @layer, and unlayered CSS wins over layered CSS regardless of order, so keeping
+// the theme's unlayered Tufte core would silently override Graphics Press.
+/* chrome-only entry: tufte core intentionally omitted */
+
+@import "general";
+
+/// Pages
+@import "pages/footer";
+
+/// Components
+@import "components/code-highlight";
+@import "components/toc";
+@import "components/nav";
+@import "components/brand";
+@import "components/meta";
+
+{{ if and (isset .Site.Params "codeblocksdark") .Site.Params.codeBlocksDark  }}
+@import "syntax/highlight-dark.scss"
+{{ else }}
+@import "syntax/highlight-light.scss"
+{{ end }}

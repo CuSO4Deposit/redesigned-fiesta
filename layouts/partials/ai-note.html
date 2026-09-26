@@ -1,0 +1,11 @@
+{{- $ai := .Params.ai | default "human" -}}
+<p class="ai-note" data-ai="{{ $ai }}">
+  {{- if eq $ai "human" }}{{ if eq .Lang "zh" }}此页面内容无 AI 参与。{{ else
+  }}No AI was involved in this page's content.{{ end }}{{ end -}} {{- if eq $ai
+  "assisted" }}{{ if eq .Lang "zh" }}此页面内容使用了 LLM 辅助。{{ else }}This
+  page's content used LLM assistance.{{ end }}{{ end -}} {{- if eq $ai
+  "translated" }}{{ if eq .Lang "zh" }}此页面内容使用了 LLM 翻译。{{ else }}This
+  page's content used LLM translation.{{ end }}{{ end -}} {{- if eq $ai
+  "generated" }}{{ if eq .Lang "zh" }}此页面内容由 LLM 撰写。{{ else }}This
+  page's content was written by an LLM.{{ end }}{{ end -}}
+</p>

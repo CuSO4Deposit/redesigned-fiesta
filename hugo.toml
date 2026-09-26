@@ -1,0 +1,36 @@
+baseURL = "https://depoze.xyz/"
+title = "CuSO4_Deposit"
+theme = "hugo-tufte"
+enableRobotsTXT = true
+
+disableKinds = ["taxonomy", "term"]
+
+defaultContentLanguage = "zh"
+defaultContentLanguageInSubdir = false
+
+[params]
+  subtitle = ""
+  math = true
+  codeBlocksDark = true
+  showPoweredBy = false
+
+[languages]
+  [languages.zh]
+    label = "简体中文"
+    locale = "zh-CN"
+    weight = 1
+  [languages.en]
+    label = "English"
+    locale = "en"
+    weight = 2
+
+[languages.zh.menu]
+  [[languages.zh.menu.nav]]
+    name = "文字"
+    url = "https://blog.depoze.xyz"
+    weight = 1
+[languages.en.menu]
+  [[languages.en.menu.nav]]
+    name = "Blog"
+    url = "https://blog.depoze.xyz"
+    weight = 1

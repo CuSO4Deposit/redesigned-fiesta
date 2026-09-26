@@ -1,0 +1,84 @@
+/* Project overrides. Linked last by partials/header.includes.html, and unlayered,
+   so these beat both Graphics Press (all @layer) and the theme chrome (unlayered).
+
+   The Chinese typography is modelled on hsiaofeng.com. Noto SC is loaded as a webfont
+   in partials/header.includes.html, because relying on the reader's OS for CJK is
+   exactly what made it look wrong here.
+
+   1. Graphics Press clamps the root at 14-16px via --gp-font-size. Too small, and
+      Chinese needs more. Raise the scale and pin <html> to it.
+   2. The theme chrome boosts zh/ja paragraphs to 1.2rem *of that small base*, which
+      makes zh and en disagree. Neutralise it so both share the one scale.
+   3. Graphics Press is built for Latin: ET Book / Gill Sans, and a 1.6 line-height.
+      Append CJK families, open the leading for Chinese, and justify CJK prose.
+   4. Graphics Press reserves a 260px margin column for sidenotes. The homepage is a
+      hub, not an article, so that column reads as empty space; give the home article
+      a centred, narrower measure. Article pages keep the full Tufte layout. */
+
+:root {
+  --gp-font-size: clamp(17px, 0.5vw + 16px, 18px);
+}
+
+html {
+  font-size: var(--gp-font-size);
+}
+
+p:lang(zh),
+span:lang(zh),
+p:lang(ja),
+span:lang(ja) {
+  font-size: inherit;
+}
+
+:root {
+  --gp-serif:
+    "ET Book", "Iowan Old Style", Charter, Georgia, "Source Han Serif SC",
+    "思源宋体", "Noto Serif SC", "Songti SC", NSimSun, SimSun, serif;
+  --gp-sans:
+    "Gill Sans", "Gill Sans MT", Calibri, "Helvetica Neue", Helvetica, Arial,
+    "Source Han Sans SC", "思源黑体", "Noto Sans SC", "PingFang SC",
+    "Microsoft YaHei", sans-serif;
+  --gp-line-height: 1.7;
+}
+
+body:lang(zh),
+body:lang(ja) {
+  line-height: 2;
+}
+
+body:lang(zh) p,
+body:lang(zh) li,
+body:lang(zh) blockquote {
+  text-align: justify;
+  text-justify: inter-ideograph;
+}
+
+article.home {
+  max-width: 46rem;
+}
+
+.menu li a {
+  text-decoration: underline;
+  text-underline-offset: 2px;
+}
+
+.menu {
+  margin-bottom: 0.75rem;
+}
+
+.brand {
+  padding-bottom: 0;
+}
+
+.brand hr {
+  margin-top: 0.75rem;
+  margin-bottom: 0.75rem;
+}
+
+hr {
+  border-color: var(--gp-rule);
+}
+
+hr::after {
+  content: none;
+}
