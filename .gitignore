@@ -1,9 +1,3 @@
-# Generated at build time from the archive by the `pipeline` package; never hand-edited,
-# never committed.
-/data/
-/assets/charts/
-
-# Nix / direnv / git-hooks.nix
 .direnv/
 result
 result-*
