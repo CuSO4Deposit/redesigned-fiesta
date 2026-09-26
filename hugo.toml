@@ -9,7 +9,6 @@ defaultContentLanguage = "zh"
 defaultContentLanguageInSubdir = false
 
 [params]
-  subtitle = ""
   math = true
   codeBlocksDark = true
   showPoweredBy = false
@@ -23,6 +22,11 @@ defaultContentLanguageInSubdir = false
     label = "English"
     locale = "en"
     weight = 2
+
+[languages.zh.params]
+  subtitle = "软件工程师，只有折腾数据的时候我感受到自己活着。"
+[languages.en.params]
+  subtitle = "Software Engineer. I feel alive when I'm wrangling data."
 
 [languages.zh.menu]
   [[languages.zh.menu.nav]]

@@ -80,5 +80,5 @@ hr {
 }
 
 hr::after {
-  content: none;
+  color: var(--gp-rule);
 }
