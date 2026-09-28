@@ -34,10 +34,10 @@ defaultContentLanguageInSubdir = false
 [languages.zh.menu]
   [[languages.zh.menu.nav]]
     name = "文字"
-    url = "https://blog.depoze.xyz"
+    url = "/pages/"
     weight = 1
 [languages.en.menu]
   [[languages.en.menu.nav]]
     name = "Blog"
-    url = "https://blog.depoze.xyz"
+    url = "/pages/"
     weight = 1

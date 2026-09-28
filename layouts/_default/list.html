@@ -9,7 +9,10 @@
     {{ range $pages }}
     <li>
       <time datetime="{{ .Date.Format "2006-01-02" }}">{{ .Date.Format "2006-01-02" }}</time>
-      <a href="{{ .RelPermalink }}">{{ .Title }}</a>
+      <span class="list-body">
+        <a href="{{ .RelPermalink }}">{{ .Title }}</a>
+        {{ with .Params.tags }}<span class="tags">{{ range . }}<span>#{{ . }}</span>{{ end }}</span>{{ end }}
+      </span>
     </li>
     {{ else }}
     <li><span class="meta">还没有文章。</span></li>
