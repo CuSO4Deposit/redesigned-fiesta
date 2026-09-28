@@ -1,0 +1,11 @@
+{{- if .IsNamedParams -}}
+<div class="friend-card">
+  <div class="friend-avatar">
+    <img src="{{ .Get "avatar" }}" alt="{{ .Get "name" }}" loading="lazy" />
+  </div>
+  <div class="friend-info">
+    <a class="friend-name" href="{{ .Get "link" }}" target="_blank" rel="noopener noreferrer">{{ .Get "name" }}</a>
+    <p class="friend-bio">{{ .Get "bio" }}</p>
+  </div>
+</div>
+{{- end -}}

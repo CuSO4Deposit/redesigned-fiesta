@@ -1,0 +1,10 @@
+{{ define "main" }}
+<article id="main">
+  {{ partial "content.header.html" . }} {{ partial "toc.html" . }}
+  <section>{{ .Content }}</section>
+  {{/* Standalone pages (url: set, e.g. /now/, /friends/) don't get backlinks.
+  */}} {{ if not .Params.url }}{{ partial "backlinks.html" . }}{{ end }}
+  <section>{{ partial "footer.html" . }}</section>
+  <section>{{ partial "nav.html" . }}</section>
+</article>
+{{ end }}

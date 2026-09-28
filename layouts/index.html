@@ -1,0 +1,8 @@
+{{ define "main" }} {{/* Home is hand-curated: render content/_index.md only.
+Add links or a shortcode here if you want a recent-posts list. */}}
+<article id="main" class="home-page">
+  {{ partial "brand.html" . }} {{ with .Content }}
+  <section>{{ . }}</section>
+  {{ end }} {{ partial "footer.html" . }}
+</article>
+{{ end }}

@@ -1,0 +1,5 @@
+{{- $type := .type -}} {{- $label := .label | default ($type | humanize) -}}
+<aside class="admonition admonition-{{ $type }}" role="note">
+  <p class="admonition-label">{{ $label }}</p>
+  <div class="admonition-body">{{ .inner | .page.RenderString }}</div>
+</aside>

@@ -1,0 +1,17 @@
+{{- /* Backlinks: pages whose raw markdown contains a ref to this page.
+schrodinger targets the content path in link refs, so match on the content path
+rather than the rendered permalink, which url can override. Substring matching
+avoids findRE blowing up on regex characters in page names. */ -}} {{- $ref :=
+printf "/%s" (strings.TrimSuffix ".md" $.File.Path) -}} {{- $backlinks := slice
+-}} {{- range .Site.RegularPages -}} {{- if and (ne .File.Path $.File.Path) (in
+.RawContent $ref) -}} {{- $backlinks = $backlinks | append . -}} {{- end -}} {{-
+end -}} {{- if gt (len $backlinks) 0 -}}
+<aside class="backlinks">
+  <h3>Backlinks</h3>
+  <ul>
+    {{- range $backlinks }}
+    <li><a href="{{ .RelPermalink }}">{{ .Title }}</a></li>
+    {{- end }}
+  </ul>
+</aside>
+{{- end -}}

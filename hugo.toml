@@ -3,6 +3,11 @@ title = "CuSO4_Deposit"
 theme = "hugo-tufte"
 enableRobotsTXT = true
 
+[markup]
+  [markup.goldmark]
+    [markup.goldmark.renderer]
+      unsafe = true
+
 disableKinds = ["taxonomy", "term"]
 
 defaultContentLanguage = "zh"
