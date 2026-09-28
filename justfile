@@ -1,5 +1,10 @@
 set shell := ["bash", "-c"]
 
+# List available recipes.
+[private]
+default:
+	@just --list
+
 # Generate the sanitized public data (does not build the site).
 data:
 	nix shell .#uv -c uv run python -m pipeline build
