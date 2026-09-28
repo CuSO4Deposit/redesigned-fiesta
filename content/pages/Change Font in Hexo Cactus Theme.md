@@ -1,11 +1,12 @@
 ---
 title: Change Font in Hexo Cactus Theme
 date: 2023-04-06
-lastMod: 2025-10-18
+lastMod: 2026-09-28
 tags:
 - font
 - Hexo
 categories:
+slug: hexo-cactus-font
 ---
 
 Modify `themes/cactus/source/layout/_partial/header.ejs`.

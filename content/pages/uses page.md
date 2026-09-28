@@ -1,9 +1,10 @@
 ---
-title: uses page
+title: Uses
 lastMod: 2026-09-28
 tags:
 categories:
 summary:
+url: /uses/
 ---
 
 Hardware and software I use, sorted by how far I'd vouch for them. Tier 1 is what I'd pick again and can say why; Tier 2 is what I'm using now but haven't compared enough to recommend.

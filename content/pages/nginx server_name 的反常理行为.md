@@ -1,10 +1,11 @@
 ---
 title: nginx server_name 的反常理行为
 date: 2024-08-24
-lastMod: 2025-10-18
+lastMod: 2026-09-28
 tags:
 - nginx
 categories:
+slug: nginx-server-name
 ---
 
 ## TL;DR

@@ -1,10 +1,11 @@
 ---
 title: Basic Operations on Datatypes in Nix
 date: 2024-07-09
-lastMod: 2025-10-18
+lastMod: 2026-09-28
 tags:
 - Nix
 categories:
+slug: nix-datatypes
 ---
 
 ## Attribute sets

@@ -1,12 +1,13 @@
 ---
 title: Zustand 笔记
 date: 2025-09-09
-lastMod: 2025-10-18
+lastMod: 2026-09-28
 tags:
 - javascript
 - React
 categories:
 summary: Zustand 是一个 React 中的 state 管理工具，本文记录了 Zustand 的一些非常初等的用法以供理解和备忘。
+slug: zustand
 ---
 
 Zustand 是一个 [[React]] 中的 state 管理工具。[~~它的官网真好看~~](https://zustand-demo.pmnd.rs/)

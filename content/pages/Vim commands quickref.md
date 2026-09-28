@@ -1,11 +1,12 @@
 ---
 title: Vim commands quickref
 date: 2021-10-04
-lastMod: 2025-10-18
+lastMod: 2026-09-28
 tags:
 - quickref
 - vim
 categories:
+slug: vim-commands
 ---
 
 ## Move cursor

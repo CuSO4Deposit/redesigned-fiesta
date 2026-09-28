@@ -1,11 +1,12 @@
 ---
 title: Probability of Christmas on Wednesday
 date: 2021-10-14
-lastMod: 2025-10-18
+lastMod: 2026-09-28
 tags:
 - mathematica
 - NumberTheory
 categories:
+slug: christmas-probability
 ---
 
 ## Original Problem

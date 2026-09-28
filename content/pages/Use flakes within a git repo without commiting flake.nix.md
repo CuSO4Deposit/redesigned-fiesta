@@ -1,12 +1,13 @@
 ---
 title: Use flakes within a git repo without commiting flake.nix
 date: 2025-09-12
-lastMod: 2025-10-18
+lastMod: 2026-09-28
 tags:
 - Flakes
 - Nix
 categories:
 sunmary: "This article demonstrates how to use `direnv` and Flakes to start a development environment without committing `flake.nix` to the repository, which is useful for teams not using Nix."
+slug: flakes-in-git-repo
 ---
 
 Doing the following allows you to use flakes to start a development environment without commit the `flake.nix` to the repo, for cases when your team does not use nix. [^1]

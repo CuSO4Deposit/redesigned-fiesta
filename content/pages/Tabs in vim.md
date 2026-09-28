@@ -1,12 +1,13 @@
 ---
 title: Tabs in vim
 date: 2024-10-11
-lastMod: 2025-10-18
+lastMod: 2026-09-28
 tags:
 - Neovim
 - Nixvim
 - vim
 categories:
+slug: vim-tabs
 ---
 
 ## Options Explanation

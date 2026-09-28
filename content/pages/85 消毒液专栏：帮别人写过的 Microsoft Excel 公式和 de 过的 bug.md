@@ -1,11 +1,12 @@
 ---
 title: 85 消毒液专栏：帮别人写过的 Microsoft Excel 公式和 de 过的 bug
 date: 2026-01-17
-lastMod: 2026-01-17
+lastMod: 2026-09-28
 tags:
 - Microsoft
 categories:
 summary: 这里记录下我帮别人写 Excel 公式时候学到的有用的东西，以及帮别人处理 Excel 的奇怪行为时候的经验。
+slug: excel-formulas
 ---
 
 # 公式

@@ -1,13 +1,14 @@
 ---
 title: "配置小米 AI 音箱连接电脑（Windows, Linux）"
 date: 2025-10-20
-lastMod: 2025-10-20
+lastMod: 2026-09-28
 tags:
 - Bluetooth
 - Linux
 - Windows
 categories:
 summary: 本文介绍了如何在 Windows 11 和 Linux 系统中连接小米 AI 音箱作为电脑音箱，并分享了连接过程中遇到的问题及解决方法，尤其是在 Linux 系统下通过 blueman 和 pavucontrol 实现更稳定的连接。
+slug: mi-ai-speaker
 ---
 
 我有一台已经很久没有用过的小米 AI 音箱，大概是初代或者初代过去没多久的。最近想把它拿来当电脑音箱，不用白不用，所以配置下。

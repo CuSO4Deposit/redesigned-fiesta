@@ -1,11 +1,12 @@
 ---
 title: Clangd cannot find standard header
 date: 2024-01-15
-lastMod: 2025-10-18
+lastMod: 2026-09-28
 tags:
 - clangd
 - lsp
 categories:
+slug: clangd-standard-header
 ---
 
 When using clangd (16.0.2) as LSP, it throws the following error:

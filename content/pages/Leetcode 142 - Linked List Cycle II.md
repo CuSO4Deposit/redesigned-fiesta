@@ -1,13 +1,14 @@
 ---
 title: Leetcode 142 - Linked List Cycle II
 date: 2023-04-26
-lastMod: 2025-10-18
+lastMod: 2026-09-28
 tags:
 - LeetCode
 - linklist
 - pointer
 - 快慢指针
 categories:
+slug: leetcode-142
 ---
 
 ## Problem

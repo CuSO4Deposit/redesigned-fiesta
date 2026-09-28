@@ -1,9 +1,10 @@
 ---
 title: Setup remote server pubkey login
 date: 2024-08-18
-lastMod: 2025-10-18
+lastMod: 2026-09-28
 tags:
 categories:
+slug: ssh-pubkey-login
 ---
 
 create pubkey pair locally: `ssh-keygen`

@@ -1,11 +1,12 @@
 ---
 title: Nix Language Basics
 date: 2024-06-30
-lastMod: 2025-10-18
+lastMod: 2026-09-28
 tags:
 - Nix
 categories:
 link: "https://nix.dev/tutorials/nix-language"
+slug: nix-language
 ---
 
 Nix is **[Functional]([[FP]])**, **Lazy evaluated**.

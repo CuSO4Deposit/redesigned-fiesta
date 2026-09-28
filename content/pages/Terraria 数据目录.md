@@ -1,10 +1,11 @@
 ---
 title: Terraria 数据目录
 date: 2025-07-08
-lastMod: 2025-10-18
+lastMod: 2026-09-28
 tags:
 - Terraria
 categories:
+slug: terraria-data-dir
 ---
 
 Terraria 客户端的数据目录

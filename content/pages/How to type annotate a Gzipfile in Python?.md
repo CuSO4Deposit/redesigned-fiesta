@@ -1,11 +1,12 @@
 ---
 title: How to type annotate a Gzipfile in Python?
 date: 2024-10-05
-lastMod: 2025-10-18
+lastMod: 2026-09-28
 tags:
 - lsp
 - python
 categories:
+slug: gzipfile-typing
 ---
 
 Pyright complains when I use the following code to process gzip files:

@@ -1,10 +1,11 @@
 ---
 title: "Markdown - Syntaxes that I don't Know"
 date: 2025-02-25
-lastMod: 2025-10-18
+lastMod: 2026-09-28
 tags:
 - Markdown
 categories:
+slug: markdown-syntax
 ---
 
 # Syntaxes

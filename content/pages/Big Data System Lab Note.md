@@ -1,11 +1,12 @@
 ---
 title: Big Data System Lab Note
 date: 2023-10-09
-lastMod: 2025-10-18
+lastMod: 2026-09-28
 tags:
 - Hadoop
 - java
 categories:
+slug: big-data-lab
 ---
 
 ### Set up Hadoop environment
