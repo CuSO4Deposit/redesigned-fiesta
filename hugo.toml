@@ -35,8 +35,24 @@ defaultContentLanguageInSubdir = false
     name = "文字"
     url = "/pages/"
     weight = 1
+  [[languages.zh.menu.nav]]
+    name = "友链"
+    url = "/friends/"
+    weight = 2
+  [[languages.zh.menu.nav]]
+    name = "用物"
+    url = "/uses/"
+    weight = 3
 [languages.en.menu]
   [[languages.en.menu.nav]]
     name = "Blog"
     url = "/pages/"
     weight = 1
+  [[languages.en.menu.nav]]
+    name = "Friends"
+    url = "/friends/"
+    weight = 2
+  [[languages.en.menu.nav]]
+    name = "Uses"
+    url = "/uses/"
+    weight = 3
