@@ -6,16 +6,6 @@
     {{ .Content }}
   </header>
 
-  {{ if eq .Section "pages" }}
-  {{ with .Site.Taxonomies.tags }}
-  <nav class="tag-index" aria-label="Tags">
-    {{ range .ByCount }}
-    <a href="{{ .Page.RelPermalink }}">#{{ .Page.Title }}<span class="count">{{ .Count }}</span></a>
-    {{ end }}
-  </nav>
-  {{ end }}
-  {{ end }}
-
   <ul class="post-list">
     {{ range $pages }}
     <li>
@@ -26,5 +16,15 @@
     <li><span class="meta">还没有文章。</span></li>
     {{ end }}
   </ul>
+
+  {{ if eq .Section "pages" }}
+  {{ with .Site.Taxonomies.tags }}
+  <nav class="tag-index" aria-label="Tags">
+    {{ range .ByCount }}
+    <a href="{{ .Page.RelPermalink }}">#{{ .Page.Title }}<span class="count">{{ .Count }}</span></a>
+    {{ end }}
+  </nav>
+  {{ end }}
+  {{ end }}
 </article>
 {{ end }}
