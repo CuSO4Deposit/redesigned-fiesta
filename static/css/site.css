@@ -82,17 +82,18 @@ h3 {
   gap: 0.55rem;
   color: var(--nc-tx-1);
   text-decoration: none;
+  line-height: 1;
 }
 
 .avatar {
+  display: block;
   width: 32px;
   height: 32px;
-  border-radius: 50%;
-  object-fit: cover;
 }
 
 .site-title {
   font-weight: 700;
+  line-height: 1;
 }
 
 .site-header nav ul {
