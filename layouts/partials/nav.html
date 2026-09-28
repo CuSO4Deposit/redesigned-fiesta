@@ -1,15 +1,14 @@
-<nav class="menu">
+<nav>
   <ul>
-    {{ range .Site.Menus.nav }}
-    <li><a href="{{ .URL }}">{{ .Pre }}{{ .Name }}</a></li>
-    {{ end }} {{ if .IsTranslated }} {{ range .AllTranslations }}
+    {{- range site.Menus.nav }}
+    <li><a href="{{ .URL }}">{{ .Name }}</a></li>
+    {{- end }} {{- if .IsTranslated }} {{- range .AllTranslations }}
     <li>
-      {{- if eq .Lang $.Lang -}}
-      <span>{{ .Language.Label }}</span>
-      {{- else -}}
-      <a href="{{ .RelPermalink }}">{{ .Language.Label }}</a>
-      {{- end -}}
+      {{ if eq .Lang $.Lang }}<span>{{ .Language.Label }}</span>{{ else }}<a
+        href="{{ .RelPermalink }}"
+        >{{ .Language.Label }}</a
+      >{{ end }}
     </li>
-    {{ end }} {{ end }}
+    {{- end }} {{- end }}
   </ul>
 </nav>

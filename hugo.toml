@@ -1,22 +1,20 @@
 baseURL = "https://depoze.xyz/"
 title = "CuSO4_Deposit"
-theme = "hugo-tufte"
 enableRobotsTXT = true
+disableKinds = ["taxonomy", "term"]
+defaultContentLanguage = "zh"
+defaultContentLanguageInSubdir = false
 
 [markup]
   [markup.goldmark]
     [markup.goldmark.renderer]
       unsafe = true
-
-disableKinds = ["taxonomy", "term"]
-
-defaultContentLanguage = "zh"
-defaultContentLanguageInSubdir = false
+  [markup.highlight]
+    style = "github"
+    noClasses = true
 
 [params]
   math = true
-  codeBlocksDark = false
-  showPoweredBy = false
 
 [languages]
   [languages.zh]

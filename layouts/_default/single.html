@@ -1,10 +1,15 @@
 {{ define "main" }}
-<article id="main">
-  {{ partial "content.header.html" . }} {{ partial "toc.html" . }}
-  <section>{{ .Content }}</section>
-  {{/* Standalone pages (url: set, e.g. /now/, /friends/) don't get backlinks.
-  */}} {{ if not .Params.url }}{{ partial "backlinks.html" . }}{{ end }}
-  <section>{{ partial "footer.html" . }}</section>
-  <section>{{ partial "nav.html" . }}</section>
+<article class="post">
+  <header class="post-header">
+    <h1>{{ .Title }}</h1>
+    {{ if not .Params.url }}
+    <p class="post-meta">
+      <time datetime="{{ .Date.Format "2006-01-02" }}">{{ .Date.Format "2006-01-02" }}</time>
+      {{ with .Params.tags }}<span class="tags">{{ range . }}<span>#{{ . }}</span> {{ end }}</span>{{ end }}
+    </p>
+    {{ end }}
+  </header>
+  <div class="post-content">{{ .Content }}</div>
+  {{ if not .Params.url }}{{ partial "backlinks.html" . }}{{ end }}
 </article>
 {{ end }}

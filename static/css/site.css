@@ -1,0 +1,258 @@
+/* Site layer on top of new.css. Retheme by editing the --nc-* tokens. */
+
+:root {
+  --nc-font-sans: "Noto Serif", "Noto Serif SC", Georgia, "Songti SC", serif;
+  --nc-font-mono:
+    ui-monospace, "JetBrains Mono", "SFMono-Regular", Consolas, monospace;
+
+  --nc-tx-1: #1a1a1a;
+  --nc-tx-2: #3a3a3a;
+  --nc-bg-1: #fbfaf7;
+  --nc-bg-2: #f1ede5;
+  --nc-bg-3: #e2ddd2;
+  --nc-lk-1: #0b5cad;
+  --nc-lk-2: #0b5cad;
+  --nc-lk-tx: #ffffff;
+  --nc-ac-1: #f0d9bb;
+  --nc-ac-tx: #4a3a20;
+}
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    --nc-tx-1: #e8e5de;
+    --nc-tx-2: #c9c6bf;
+    --nc-bg-1: #16161a;
+    --nc-bg-2: #1e1e23;
+    --nc-bg-3: #2b2b32;
+    --nc-lk-1: #8ab4f8;
+    --nc-lk-2: #8ab4f8;
+    --nc-ac-1: #3a3320;
+    --nc-ac-tx: #f0d9bb;
+  }
+}
+
+body {
+  max-width: 44rem;
+  margin: 0 auto;
+  padding: 2rem 1.25rem 5rem;
+  font-size: 17px;
+  line-height: 1.8;
+}
+
+/* Header / nav */
+.site-header {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: baseline;
+  gap: 0.5rem 1.5rem;
+  margin-bottom: 3rem;
+  padding-bottom: 0.75rem;
+  border-bottom: 1px solid var(--nc-bg-3);
+}
+
+.site-title {
+  font-weight: 700;
+  color: var(--nc-tx-1);
+  text-decoration: none;
+}
+
+.site-header nav ul {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.25rem 1rem;
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+.site-header nav a {
+  color: var(--nc-tx-2);
+}
+
+/* Article */
+.post-header h1 {
+  margin-bottom: 0.25rem;
+  line-height: 1.25;
+}
+
+.post-meta {
+  color: var(--nc-tx-2);
+  font-size: 0.85rem;
+}
+
+.tags span {
+  margin-right: 0.4rem;
+}
+
+/* Section lists */
+.post-list {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+.post-list li {
+  display: flex;
+  gap: 1rem;
+  padding: 0.35rem 0;
+  border-bottom: 1px solid var(--nc-bg-2);
+}
+
+.post-list time {
+  color: var(--nc-tx-2);
+  font-size: 0.85rem;
+  white-space: nowrap;
+  font-variant-numeric: tabular-nums;
+}
+
+/* Code */
+code {
+  font-size: 0.86em;
+}
+
+pre {
+  padding: 0.8rem 1rem;
+  overflow-x: auto;
+  border-left: 2px solid var(--nc-bg-3);
+  line-height: 1.5;
+}
+
+pre code {
+  padding: 0;
+  background: none;
+}
+
+/* Admonitions (logseq/org* shortcodes) */
+.admonition {
+  margin: 1.25rem 0;
+  padding: 0.6rem 1rem;
+  border-left: 3px solid var(--nc-bg-3);
+  background: var(--nc-bg-2);
+  font-size: 0.95em;
+}
+
+.admonition-label {
+  margin: 0 0 0.25rem;
+  font-size: 0.72rem;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+  color: var(--nc-tx-2);
+}
+
+.admonition-body > :first-child {
+  margin-top: 0;
+}
+
+.admonition-body > :last-child {
+  margin-bottom: 0;
+}
+
+.admonition-caution,
+.admonition-warning {
+  border-left-color: #c0392b;
+}
+
+.admonition-tip {
+  border-left-color: #2e7d32;
+}
+
+.admonition-important,
+.admonition-pinned {
+  border-left-color: #b8860b;
+}
+
+.admonition-note,
+.admonition-example,
+.admonition-quote {
+  border-left-color: #0b5cad;
+}
+
+/* Friend cards */
+.friend-container {
+  display: grid;
+  gap: 1rem;
+  margin: 1.5rem 0;
+}
+
+.friend-card {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+  padding: 0.9rem 1rem;
+  border: 1px solid var(--nc-bg-3);
+}
+
+.friend-avatar {
+  flex: 0 0 auto;
+  width: 4.5rem;
+  height: 4.5rem;
+}
+
+.friend-avatar img {
+  width: 100%;
+  height: 100%;
+  border-radius: 50%;
+  object-fit: cover;
+}
+
+.friend-info {
+  min-width: 0;
+}
+
+.friend-name {
+  font-weight: 700;
+}
+
+.friend-bio {
+  margin: 0.2rem 0 0;
+  font-size: 0.9em;
+  color: var(--nc-tx-2);
+}
+
+@media (max-width: 480px) {
+  .friend-card {
+    flex-direction: column;
+    text-align: center;
+  }
+}
+
+/* Backlinks */
+.backlinks {
+  margin-top: 3rem;
+  padding-top: 0.75rem;
+  border-top: 1px solid var(--nc-bg-3);
+  font-size: 0.9em;
+}
+
+.backlinks h3 {
+  margin-bottom: 0.35rem;
+  font-size: 0.8rem;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+  color: var(--nc-tx-2);
+}
+
+.backlinks ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+/* Footnotes, AI note, footer */
+.footnotes {
+  margin-top: 3rem;
+  padding-top: 0.75rem;
+  border-top: 1px solid var(--nc-bg-3);
+  font-size: 0.85em;
+}
+
+.ai-note {
+  font-size: 0.8rem;
+  color: var(--nc-tx-2);
+}
+
+.site-footer {
+  margin-top: 4rem;
+  padding-top: 0.75rem;
+  border-top: 1px solid var(--nc-bg-3);
+}

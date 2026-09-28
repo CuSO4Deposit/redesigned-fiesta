@@ -1,38 +1,19 @@
 {{ define "main" }}
-{{/* Standalone pages (those with a `url:` front matter, e.g. /now/, /friends/)
-     are excluded from section lists. */}}
-{{ $pages := where .Data.Pages "Params.url" "==" nil }}
-<div id="layout" class="pure-g">
-<article class="pure-u-1">
-
-{{ partial "brand.html" . }}
-{{ partial "content.header.html" . }}
-
-<section class="list-page">
-{{ range $pages.GroupByDate "2006" }}
-  <ul>
-  <li class="year">{{ .Key }} ({{ len .Pages }})</li>
-    {{ range .Pages.GroupByDate "January" }}
-    <ul>
-    <li>{{ .Key }} ({{ len .Pages }})</li>
-      {{ range .Pages }}
-      <ul>
-      <li>
-        <span class="list-date">{{ .Date.Format "Jan 2" }} &middot;</span>
-        <a href="{{ .RelPermalink }}">{{ .Title }}</a>
-      </li>
-      </ul>
-      {{ end }}
+{{ $pages := where .Pages "Params.url" "==" nil }}
+<article class="list">
+  <header class="list-header">
+    <h1>{{ .Title }}</h1>
+    {{ .Content }}
+  </header>
+  <ul class="post-list">
+    {{ range $pages }}
+    <li>
+      <time datetime="{{ .Date.Format "2006-01-02" }}">{{ .Date.Format "2006-01-02" }}</time>
+      <a href="{{ .RelPermalink }}">{{ .Title }}</a>
     </li>
-    </ul>
+    {{ else }}
+    <li><span class="meta">还没有文章。</span></li>
     {{ end }}
   </ul>
-  {{ end }}
-</section>
-
-{{ partial "footer.html" . }}
-
 </article>
-</div>
-
 {{ end }}

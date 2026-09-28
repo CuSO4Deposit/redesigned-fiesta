@@ -1,1 +1,3 @@
-<footer class="page-footer"></footer>
+<footer class="site-footer">
+  {{- if .Params.ai }}{{ partial "ai-note.html" . }}{{ end -}}
+</footer>

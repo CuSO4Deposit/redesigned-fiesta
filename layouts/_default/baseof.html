@@ -1,8 +1,26 @@
 <!doctype html>
 <html lang="{{ site.Language.Locale | default site.Language.Lang }}">
-  {{- partial "header.html" . -}}
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>{{ if .IsHome }}{{ site.Title }}{{ else }}{{ .Title }} · {{ site.Title }}{{ end }}</title>
+    {{ with .Description }}<meta name="description" content="{{ . }}" />{{ else }}{{ with .Summary }}<meta name="description" content="{{ . | plainify | truncate 200 }}" />{{ end }}{{ end }}
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Noto+Serif:wght@400;700&family=Noto+Serif+SC:wght@400;700&display=swap" />
+    <link rel="stylesheet" href="{{ "css/new.css" | relURL }}" />
+    <link rel="stylesheet" href="{{ "css/site.css" | relURL }}" />
+    {{ with .OutputFormats.Get "rss" }}<link rel="alternate" type="application/rss+xml" href="{{ .Permalink }}" title="{{ site.Title }}" />{{ end }}
+    {{ partial "math.html" . }}
+  </head>
   <body>
-    {{ block "main" . }}{{ end }} {{ if or .Params.math .IsHome }}{{ partial
-    "math.html" . }}{{ end }} {{ partial "sidenotes.html" . }}
+    <header class="site-header">
+      <a class="site-title" href="{{ "/" | relLangURL }}">{{ site.Title }}</a>
+      {{ partial "nav.html" . }}
+    </header>
+    <main>
+      {{ block "main" . }}{{ end }}
+    </main>
+    {{ partial "footer.html" . }}
   </body>
 </html>
