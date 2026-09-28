@@ -5,14 +5,22 @@
     <h1>{{ .Title }}</h1>
     {{ .Content }}
   </header>
+
+  {{ if eq .Section "pages" }}
+  {{ with .Site.Taxonomies.tags }}
+  <nav class="tag-index" aria-label="Tags">
+    {{ range .ByCount }}
+    <a href="{{ .Page.RelPermalink }}">#{{ .Page.Title }}<span class="count">{{ .Count }}</span></a>
+    {{ end }}
+  </nav>
+  {{ end }}
+  {{ end }}
+
   <ul class="post-list">
     {{ range $pages }}
     <li>
       <time datetime="{{ .Date.Format "2006-01-02" }}">{{ .Date.Format "2006-01-02" }}</time>
-      <span class="list-body">
-        <a href="{{ .RelPermalink }}">{{ .Title }}</a>
-        {{ with .Params.tags }}<span class="tags">{{ range . }}<a href="{{ (printf "tags/%s/" (. | urlize)) | relLangURL }}">#{{ . }}</a> {{ end }}</span>{{ end }}
-      </span>
+      <span class="list-body"><a href="{{ .RelPermalink }}">{{ .Title }}</a></span>
     </li>
     {{ else }}
     <li><span class="meta">还没有文章。</span></li>

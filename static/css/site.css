@@ -289,6 +289,28 @@ pre code {
   text-decoration: none;
 }
 
+.tag-index {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.4rem 0.6rem;
+  margin: 1rem 0 2rem;
+}
+
+.tag-index a {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.3rem;
+  padding: 0.05rem 0.5rem;
+  border: 1px solid var(--nc-bg-3);
+  font-size: 0.85rem;
+  text-decoration: none;
+}
+
+.tag-index .count {
+  color: var(--nc-tx-2);
+  font-size: 0.75em;
+}
+
 .term-list {
   margin: 0;
   padding: 0;
