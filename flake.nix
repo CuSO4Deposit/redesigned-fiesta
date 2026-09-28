@@ -5,6 +5,10 @@
     flake-parts.url = "github:hercules-ci/flake-parts";
     nixpkgs.url = "github:NixOS/nixpkgs/nixos-unstable";
     pre-commit-hooks.url = "github:cachix/git-hooks.nix";
+    logseq-schrodinger = {
+      url = "github:CuSO4Deposit/logseq-schrodinger";
+      inputs.nixpkgs.follows = "nixpkgs";
+    };
   };
 
   outputs =
@@ -29,6 +33,11 @@
           ...
         }:
         {
+          packages = {
+            schrodinger = inputs.logseq-schrodinger.packages.${system}.default;
+            hugo = pkgs.hugo;
+            uv = pkgs.uv;
+          };
           pre-commit.settings = {
             src = ./.;
             hooks = {

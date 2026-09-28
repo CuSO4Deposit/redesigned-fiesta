@@ -34,6 +34,26 @@
         "type": "github"
       }
     },
+    "logseq-schrodinger": {
+      "inputs": {
+        "nixpkgs": [
+          "nixpkgs"
+        ]
+      },
+      "locked": {
+        "lastModified": 1790606924,
+        "narHash": "sha256-iZS0ZKt633FrOprORT8eHpUdP353ECIXFo7FGGIeU/Q=",
+        "owner": "CuSO4Deposit",
+        "repo": "logseq-schrodinger",
+        "rev": "52627e839264f7d38a723866b50901e33a1cf4d1",
+        "type": "github"
+      },
+      "original": {
+        "owner": "CuSO4Deposit",
+        "repo": "logseq-schrodinger",
+        "type": "github"
+      }
+    },
     "nixpkgs": {
       "locked": {
         "lastModified": 1790185690,
@@ -103,6 +123,7 @@
     "root": {
       "inputs": {
         "flake-parts": "flake-parts",
+        "logseq-schrodinger": "logseq-schrodinger",
         "nixpkgs": "nixpkgs",
         "pre-commit-hooks": "pre-commit-hooks"
       }
