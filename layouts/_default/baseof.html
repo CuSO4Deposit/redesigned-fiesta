@@ -15,7 +15,13 @@
   </head>
   <body>
     <header class="site-header">
-      <a class="site-title" href="{{ "/" | relLangURL }}">{{ site.Title }}</a>
+      <a class="site-brand" href="{{ "/" | relLangURL }}">
+        {{ with resources.Get "avatar.png" }}
+          {{ $avatar := .Resize "96x96" }}
+          <img class="avatar" src="{{ $avatar.RelPermalink }}" width="32" height="32" alt="{{ site.Title }}" />
+        {{ end }}
+        <span class="site-title">{{ site.Title }}</span>
+      </a>
       {{ partial "nav.html" . }}
       {{ partial "lang.html" . }}
     </header>

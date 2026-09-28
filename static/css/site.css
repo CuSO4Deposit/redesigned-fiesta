@@ -69,17 +69,30 @@ h3 {
 .site-header {
   display: flex;
   flex-wrap: wrap;
-  align-items: baseline;
+  align-items: center;
   gap: 0.5rem 1.5rem;
   margin-bottom: 3rem;
   padding-bottom: 0.75rem;
   border-bottom: 1px solid var(--nc-bg-3);
 }
 
-.site-title {
-  font-weight: 700;
+.site-brand {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.55rem;
   color: var(--nc-tx-1);
   text-decoration: none;
+}
+
+.avatar {
+  width: 32px;
+  height: 32px;
+  border-radius: 50%;
+  object-fit: cover;
+}
+
+.site-title {
+  font-weight: 700;
 }
 
 .site-header nav ul {
