@@ -47,6 +47,10 @@ defaultContentLanguageInSubdir = false
     name = "在用"
     url = "/uses/"
     weight = 4
+  [[languages.zh.menu.nav]]
+    name = "RSS"
+    url = "/index.xml"
+    weight = 5
 [languages.en.menu]
   [[languages.en.menu.nav]]
     name = "Blog"
@@ -64,3 +68,7 @@ defaultContentLanguageInSubdir = false
     name = "Uses"
     url = "/uses/"
     weight = 4
+  [[languages.en.menu.nav]]
+    name = "RSS"
+    url = "/en/index.xml"
+    weight = 5
