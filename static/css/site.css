@@ -1,7 +1,9 @@
 /* Site layer on top of new.css. Retheme by editing the --nc-* tokens. */
 
 :root {
-  --nc-font-sans: "Noto Serif", "Noto Serif SC", Georgia, "Songti SC", serif;
+  --nc-font-sans:
+    "Noto Serif SC", "Source Han Serif SC", "Songti SC", "SimSun", Georgia,
+    "Times New Roman", serif;
   --nc-font-mono:
     ui-monospace, "JetBrains Mono", "SFMono-Regular", Consolas, monospace;
 
