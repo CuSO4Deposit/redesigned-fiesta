@@ -3,6 +3,6 @@
   {{- partial "header.html" . -}}
   <body>
     {{ block "main" . }}{{ end }} {{ if or .Params.math .IsHome }}{{ partial
-    "math.html" . }}{{ end }}
+    "math.html" . }}{{ end }} {{ partial "sidenotes.html" . }}
   </body>
 </html>

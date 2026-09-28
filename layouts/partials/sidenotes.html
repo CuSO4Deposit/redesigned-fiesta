@@ -1,0 +1,5 @@
+{{ $js := resources.Get "js/sidenotes.js" | resources.Minify }} {{ with $js }}
+<script>
+  {{ .Content | safeJS }}
+</script>
+{{ end }}

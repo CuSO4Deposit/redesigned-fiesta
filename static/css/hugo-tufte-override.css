@@ -224,14 +224,10 @@ hr::after {
   text-indent: 0;
 }
 
-/* Reading column: the Tufte margin column is unused here, so widen the text
-   and centre the article on it instead of reserving ~260px of empty space. */
+/* Reading column: keep the Tufte margin column (that's where sidenotes go),
+   but widen the text column a little. */
 :root {
-  --gp-text-width: 46rem;
-}
-
-article {
-  max-width: calc(var(--gp-text-width) + 2 * var(--gp-outer-margin));
+  --gp-text-width: 44rem;
 }
 
 /* Close the gap between the title and the body: the theme's h2 top margin
