@@ -15,7 +15,7 @@ defaultContentLanguageInSubdir = false
 
 [params]
   math = true
-  codeBlocksDark = true
+  codeBlocksDark = false
   showPoweredBy = false
 
 [languages]

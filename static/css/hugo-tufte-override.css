@@ -247,3 +247,20 @@ article > section + section {
 article > section > :first-child {
   margin-top: 0;
 }
+
+/* Code blocks: the theme hard-codes 50% width and a 1rem monospace size,
+   and (with codeBlocksDark) a Dracula background that fights the palette.
+   Make them full width and use the Graphics Press surface. */
+.highlight {
+  width: 100%;
+  margin: var(--gp-space-md) 0;
+  padding: var(--gp-space-sm) var(--gp-space-md);
+  overflow-x: auto;
+  background: var(--gp-code-bg);
+  border-left: 2px solid var(--gp-rule);
+}
+
+.highlight code {
+  font-size: var(--gp-small);
+  line-height: 1.5;
+}
