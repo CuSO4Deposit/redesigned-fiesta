@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <title>{{ if .IsHome }}{{ site.Title }}{{ else }}{{ .Title }} · {{ site.Title }}{{ end }}</title>
     {{ with .Description }}<meta name="description" content="{{ . }}" />{{ else }}{{ with .Summary }}<meta name="description" content="{{ . | plainify | truncate 200 }}" />{{ end }}{{ end }}
+    {{ partial "opengraph.html" . }}
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Noto+Serif+SC:wght@400;700&display=swap" />
