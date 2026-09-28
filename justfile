@@ -27,3 +27,11 @@ test:
 # Export the public Logseq pages into content/.
 export:
 	nix run .#schrodinger -- export --graph ~/Documents/Logseq --out . --assets-dir static/assets --clean
+
+# Translate changed pages to English (needs LLM_API_KEY).
+translate:
+	nix shell .#uv -c uv run python -m pipeline translate
+
+# Adopt existing .en.md files without calling the model.
+translate-seed:
+	nix shell .#uv -c uv run python -m pipeline translate --seed

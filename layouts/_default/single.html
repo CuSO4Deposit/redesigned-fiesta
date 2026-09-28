@@ -9,6 +9,7 @@
     </p>
     {{ end }}
   </header>
+  {{ partial "ai-note.html" . }}
   <div class="post-content">{{ .Content }}</div>
   {{ if not .Params.url }}{{ partial "backlinks.html" . }}{{ end }}
 </article>

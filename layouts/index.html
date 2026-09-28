@@ -1,3 +1,5 @@
 {{ define "main" }}
-<article class="home">{{ .Content }}</article>
+<article class="home">
+  {{ .Content }}{{ if .Params.ai }}{{ partial "ai-note.html" . }}{{ end }}
+</article>
 {{ end }}

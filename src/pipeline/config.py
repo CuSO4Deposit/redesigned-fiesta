@@ -47,6 +47,8 @@ class Config:
     pjsk_difficulties: str | None
     cytus2_charts: str | None
     llm_api_key: str | None
+    llm_base_url: str | None
+    llm_model: str | None
 
     @classmethod
     def from_env(cls, root: Path) -> Config:
@@ -71,4 +73,6 @@ class Config:
             pjsk_difficulties=get("PJSK_DIFFICULTIES_JSON"),
             cytus2_charts=get("CYTUS2_CHARTS_JSON"),
             llm_api_key=get("LLM_API_KEY"),
+            llm_base_url=get("LLM_BASE_URL") or "https://api.openai.com/v1",
+            llm_model=get("LLM_MODEL") or "gpt-4o-mini",
         )
