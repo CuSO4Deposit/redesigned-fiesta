@@ -16,7 +16,10 @@
   <body>
     <header class="site-header">
       <a class="site-title" href="{{ "/" | relLangURL }}">{{ site.Title }}</a>
-      {{ partial "nav.html" . }}
+      <div class="site-nav">
+        {{ partial "nav.html" . }}
+        {{ partial "lang.html" . }}
+      </div>
     </header>
     <main>
       {{ block "main" . }}{{ end }}
