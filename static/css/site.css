@@ -42,7 +42,7 @@ body {
 }
 
 /* new.css paints <header> as a full-bleed band and draws a rule under
-   h1-h3. Reset both; keep only our own separators. */
+   h1-h3; drop both. Spacing is left to new.css. */
 header {
   background: none;
   border: 0;
@@ -54,28 +54,6 @@ h1,
 h2,
 h3 {
   border-bottom: 0;
-  padding-bottom: 0;
-}
-
-h1,
-h2,
-h3,
-h4,
-h5,
-h6 {
-  padding-top: 0;
-}
-
-h1 {
-  margin: 0 0 0.5rem;
-}
-
-h2 {
-  margin: 1.5rem 0 0.5rem;
-}
-
-h3 {
-  margin: 1.25rem 0 0.4rem;
 }
 
 /* Header / nav */
@@ -190,20 +168,10 @@ pre code {
   background: none;
 }
 
-/* Prose lists: Logseq exports loose lists, so each item is wrapped in a
-   <p>. new.css gives those a 1rem bottom margin and zeroes nested list
-   margins, which made a child list sit farther from its parent than the
-   next sibling. Keep children close, siblings consistent. */
-.post-content > :first-child,
-.home > :first-child {
-  margin-top: 0;
-}
-
-.post-content > :last-child,
-.home > :last-child {
-  margin-bottom: 0;
-}
-
+/* Logseq exports loose lists (each item wrapped in a <p>). new.css gives
+   those <p> a 1rem bottom margin and zeroes nested list margins, so a
+   child list ended up farther from its parent than the next sibling.
+   This is a bug fix for that, not a spacing preference. */
 :is(.post-content, .home) li {
   margin-top: 0;
 }
