@@ -2,13 +2,17 @@
   <ul>
     {{- range site.Menus.nav }}
     <li><a href="{{ .URL }}">{{ .Name }}</a></li>
-    {{- end }} {{- if .IsTranslated }} {{- range .AllTranslations }}
+    {{- end }} {{- $current := . }} {{- range site.Sites }} {{- $alt := . }} {{-
+    $href := $alt.Home.RelPermalink }} {{- range $current.AllTranslations }} {{-
+    if eq .Lang $alt.Language.Lang }}{{ $href = .RelPermalink }}{{ end }} {{-
+    end }}
     <li>
-      {{ if eq .Lang $.Lang }}<span>{{ .Language.Label }}</span>{{ else }}<a
-        href="{{ .RelPermalink }}"
-        >{{ .Language.Label }}</a
-      >{{ end }}
+      {{- if eq $alt.Language.Lang $current.Lang -}}
+      <span>{{ $alt.Language.Label }}</span>
+      {{- else -}}
+      <a href="{{ $href }}">{{ $alt.Language.Label }}</a>
+      {{- end -}}
     </li>
-    {{- end }} {{- end }}
+    {{- end }}
   </ul>
 </nav>
