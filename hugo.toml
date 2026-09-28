@@ -54,19 +54,19 @@ defaultContentLanguageInSubdir = false
 [languages.en.menu]
   [[languages.en.menu.nav]]
     name = "Blog"
-    url = "/pages/"
+    url = "/en/pages/"
     weight = 1
   [[languages.en.menu.nav]]
     name = "Now"
-    url = "/now/"
+    url = "/en/now/"
     weight = 2
   [[languages.en.menu.nav]]
     name = "Friends"
-    url = "/friends/"
+    url = "/en/friends/"
     weight = 3
   [[languages.en.menu.nav]]
     name = "Uses"
-    url = "/uses/"
+    url = "/en/uses/"
     weight = 4
   [[languages.en.menu.nav]]
     name = "RSS"
