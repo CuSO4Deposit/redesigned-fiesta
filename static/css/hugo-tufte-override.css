@@ -223,3 +223,31 @@ hr::after {
   margin: 0 0 0.2rem;
   text-indent: 0;
 }
+
+/* Reading column: the Tufte margin column is unused here, so widen the text
+   and centre the article on it instead of reserving ~260px of empty space. */
+:root {
+  --gp-text-width: 46rem;
+}
+
+article {
+  max-width: calc(var(--gp-text-width) + 2 * var(--gp-outer-margin));
+}
+
+/* Close the gap between the title and the body: the theme's h2 top margin
+   (5.5rem) and a padded section stacked up right after the h1. */
+h2 {
+  margin-top: var(--gp-space-lg);
+}
+
+article > section {
+  padding-top: 0;
+}
+
+article > section + section {
+  padding-top: var(--gp-space-md);
+}
+
+article > section > :first-child {
+  margin-top: 0;
+}
