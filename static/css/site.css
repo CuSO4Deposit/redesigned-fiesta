@@ -41,6 +41,30 @@ body {
   line-height: 1.8;
 }
 
+/* new.css paints <header> as a full-bleed band and draws a rule under
+   h1-h3. Reset both; keep only our own separators. */
+header {
+  background: none;
+  border: 0;
+  margin: 0;
+  padding: 0;
+}
+
+h1,
+h2,
+h3 {
+  border-bottom: 0;
+  padding-bottom: 0;
+}
+
+h2 {
+  margin-top: 2.5rem;
+}
+
+h3 {
+  margin-top: 2rem;
+}
+
 /* Header / nav */
 .site-header {
   display: flex;
