@@ -1,7 +1,6 @@
 baseURL = "https://depoze.xyz/"
 title = "CuSO4_Deposit"
 enableRobotsTXT = true
-disableKinds = ["taxonomy", "term"]
 defaultContentLanguage = "zh"
 defaultContentLanguageInSubdir = false
 

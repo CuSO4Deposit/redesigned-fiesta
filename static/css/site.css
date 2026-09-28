@@ -282,3 +282,25 @@ pre code {
   padding-top: 0.75rem;
   border-top: 1px solid var(--nc-bg-3);
 }
+
+/* Tags and term pages */
+.tags a {
+  margin-right: 0.35rem;
+  text-decoration: none;
+}
+
+.term-list {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+.term-list li {
+  display: flex;
+  gap: 0.5rem;
+  padding: 0.25rem 0;
+}
+
+.term-list .meta {
+  color: var(--nc-tx-2);
+}

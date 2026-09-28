@@ -5,7 +5,7 @@
     {{ if not .Params.url }}
     <p class="post-meta">
       <time datetime="{{ .Date.Format "2006-01-02" }}">{{ .Date.Format "2006-01-02" }}</time>
-      {{ with .Params.tags }}<span class="tags">{{ range . }}<span>#{{ . }}</span> {{ end }}</span>{{ end }}
+      {{ with .Params.tags }}<span class="tags">{{ range . }}<a href="{{ (printf "tags/%s/" (. | urlize)) | relLangURL }}">#{{ . }}</a> {{ end }}</span>{{ end }}
     </p>
     {{ end }}
   </header>
