@@ -41,11 +41,11 @@
         ]
       },
       "locked": {
-        "lastModified": 1790606924,
-        "narHash": "sha256-iZS0ZKt633FrOprORT8eHpUdP353ECIXFo7FGGIeU/Q=",
+        "lastModified": 1790698748,
+        "narHash": "sha256-r/WGbkUy9ueWIS6Ful/bUjtsd74cpUPoNp1bHeNERx8=",
         "owner": "CuSO4Deposit",
         "repo": "logseq-schrodinger",
-        "rev": "52627e839264f7d38a723866b50901e33a1cf4d1",
+        "rev": "6ab12c6fc43b6f46d9be1d8959fc48ded9edf977",
         "type": "github"
       },
       "original": {

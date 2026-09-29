@@ -62,6 +62,14 @@
               NIX_LD = builtins.readFile "${pkgs.stdenv.cc}/nix-support/dynamic-linker";
 
               shellHook = ''
+                # `nix develop` blanks SSL_CERT_FILE; the uv-managed Python then
+                # falls back to /etc/ssl/cert.pem, which NixOS does not provide.
+                # Point it at the system bundle so HTTPS (and any local proxy CA)
+                # is trusted.
+                if [ -e /etc/ssl/certs/ca-bundle.crt ]; then
+                  export SSL_CERT_FILE=/etc/ssl/certs/ca-bundle.crt
+                fi
+
                 # install pre-commit hooks
                 ${config.pre-commit.installationScript}
 
