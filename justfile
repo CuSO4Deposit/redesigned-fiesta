@@ -16,8 +16,8 @@ site:
 # The full public build: data first, then the site that consumes it.
 build: data site
 
-# End to end: export from Logseq, translate, then build the site.
-all: export translate build
+# End to end: export, translate, build, commit with the given message, then push.
+all message: export translate build (commit message) push
 
 # Preview the site locally.
 serve:
