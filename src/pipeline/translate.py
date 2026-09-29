@@ -102,6 +102,7 @@ def _llm(cfg: Config, system: str, user: str, temperature: float = 0.2) -> str:
         {
             "model": cfg.llm_model,
             "temperature": temperature,
+            "thinking": {"type": "disabled"},
             "messages": [
                 {"role": "system", "content": system},
                 {"role": "user", "content": user},
