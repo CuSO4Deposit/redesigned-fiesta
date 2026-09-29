@@ -1,47 +1,45 @@
 ---
 title: Now
-ai: translated
-date: 2026-09-28
-lastMod: 2026-09-28
+date: 2026-09-29
+lastMod: 2026-09-29
 tags:
 categories:
 url: /en/now/
+ai: translated
 ---
 
-(This is a [now page](https://nownownow.com/about). It shares what I'd tell a friend I hadn't seen in a year. Consider make one for your site!)
+(This is a [now page](https://nownownow.com/about). It shares what I'd tell a friend I hadn't seen in a year. Consider making one for your site!)
 
 
-_Last updated: 2026-07-22_
+_Last updated: 2026-09-29_
 
 ## Work
 
-  + Doing algorithms at a startup. Currently living the 996 life.
+  + Working on algorithms at a startup. Currently living the 996 life.
 
 
-  + Spending most of my waking hours here.
+  + I spend most of my waking hours here.
 
 ## In Real Life
 
-  + Being a bit of a drinker.
+  + Being a boozer.
 
 
-  + Taking sleep seriously.
+  + Sleeping seriously.
 
 ## In the Cyber World
 
-  + The time I spend on rhythm games is gradually decreasing. Currently mainly playing Arcaea.
+  + I'm spending less and less time playing rhythm games. Right now I'm mainly playing Arcaea.
 
 
-  + Reading *Walden*
+  + Reading *Principles*.
 
-  + Following [QuizKnock](https://web.quizknock.com/)
+  + Maintaining a photo management system~~, and therefore tagging photos from long ago~~. Recently I haven't had much time to tag photos.
 
-  + Maintaining a photo management system, so I'm tagging photos from way back.
+  + I hacked together a [regex crossword game](https://github.com/cuSO4Deposit/regex-crossword), so I won't be too bored when I'm out with only my phone.
 
-  + I'm experiencing [Terraria](https://www.terraria.org/) 1.4.5. This is my 900th hour playing Terraria.
+  + I'm trying out [Terraria](https://www.terraria.org/) 1.4.5. This is my 900th hour playing Terraria.
 
-## What Has Influenced Me
+## What's Influenced Me
 
-  + I happened to come across [a CDC blog post about handwashing](https://www.cdc.gov/clean-hands/about/index.html), so I'm **practicing good hygiene**.
-
-
+  + I happened to come across [CDC's blog post about handwashing](https://www.cdc.gov/clean-hands/about/index.html), so I'm **practicing good hygiene**.

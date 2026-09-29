@@ -143,13 +143,13 @@
     "prompt": "v1",
     "src": "sha256:c337c141525cb587ea3aef444b0107c764c56b43e618f934cfc1fe474dcf3408"
   },
-  "content/pages/blog/friends.md": {
-    "prompt": "v1",
-    "src": "sha256:4870e682d52e3fa79fa1d301ca6bb2a5ed5cd167a1d642aa322de087ff71eb0f"
-  },
   "content/pages/blog/now.md": {
     "prompt": "v1",
-    "src": "sha256:e5e45fcb89a14cf759ea8a67ba2967f83f0c87194178bea4b116975df2a91b94"
+    "src": "sha256:754707984f90e2e92fa2c01bf0369a8f6703a93ba7f356c5271f4af5efed9360"
+  },
+  "content/pages/blog/uses.md": {
+    "prompt": "v1",
+    "src": "sha256:159b6c5a5a5f11b44791ec0ba5f7c2271e610c1ca66ed9263a95fc518e93f60c"
   },
   "content/pages/nginx server_name 的反常理行为.md": {
     "prompt": "v1",
@@ -158,10 +158,6 @@
   "content/pages/type unicode characters in Linux (most GTK- or Qt- based applications).md": {
     "prompt": "v1",
     "src": "sha256:8c260cff154a68df9286800e4d732a3611855f06cfe98e2b4f3ef7061714c8fb"
-  },
-  "content/pages/uses page.md": {
-    "prompt": "v1",
-    "src": "sha256:7ddee91775dbe5c24434c6f160e6e682c6438a3644a7db8a055bc118de72f3ff"
   },
   "content/pages/为什么刷怪场刷不出你想要的怪？.md": {
     "prompt": "v1",
