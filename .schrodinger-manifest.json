@@ -188,6 +188,11 @@
     "hash": "484c8faa7a7d82f25b8e212ba1d921ac067df12cf51a2aa902eb7f02bd7734fa",
     "lastMod": "2026-09-29"
   },
+  "content/pages/home.md": {
+    "hash": "6ca197e1dc61cd959d16f60ec56c93f63df14440d1845e39da194967b40f7b55",
+    "date": "2026-09-29",
+    "lastMod": "2026-09-29"
+  },
   "content/pages/nginx server_name 的反常理行为.md": {
     "hash": "f379ca48bee504c9a5c3b42486bb946a85493e8984cd9a2c4fbafb530a320983",
     "date": "2024-08-24",
