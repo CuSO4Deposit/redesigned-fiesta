@@ -16,8 +16,8 @@ site:
 # The full public build: data first, then the site that consumes it.
 build: data site
 
-# End to end: export, translate, build, commit with the given message, then push.
-all message: export translate build (commit message) push
+# End to end: export, translate, build, commit, then push.
+all: export translate build commit push
 
 # Preview the site locally.
 serve:
@@ -39,10 +39,10 @@ translate:
 translate-seed:
 	nix shell .#uv -c uv run python -m pipeline translate --seed
 
-# Stage everything and commit with the given message.
-commit message:
+# Stage everything and commit with an automatic message (no-op if clean).
+commit:
 	git add -A
-	git commit -m "{{message}}"
+	git diff --cached --quiet || git commit -m "content: sync from Logseq ($(date +%F))"
 
 # Push the current branch to its upstream.
 push:
