@@ -38,3 +38,12 @@ translate:
 # Adopt existing .en.md files without calling the model.
 translate-seed:
 	nix shell .#uv -c uv run python -m pipeline translate --seed
+
+# Stage everything and commit with the given message.
+commit message:
+	git add -A
+	git commit -m "{{message}}"
+
+# Push the current branch to its upstream.
+push:
+	git push
