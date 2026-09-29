@@ -1,5 +1,5 @@
 {{ define "main" }}
-{{ with .Site.GetPage "/pages/home" }}
+{{ with .Site.GetPage "/pages/blog/home" }}
 <article class="home">
   {{ .Content }}{{ if .Params.ai }}{{ partial "ai-note.html" . }}{{ end }}
 </article>

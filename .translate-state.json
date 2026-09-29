@@ -143,6 +143,10 @@
     "prompt": "v1",
     "src": "sha256:c337c141525cb587ea3aef444b0107c764c56b43e618f934cfc1fe474dcf3408"
   },
+  "content/pages/blog/home.md": {
+    "prompt": "v1",
+    "src": "sha256:f21efb02f8473cf62f6d2608cbf21689998cbcf790e9caa8f8474fbf9826b115"
+  },
   "content/pages/blog/now.md": {
     "prompt": "v1",
     "src": "sha256:2de35b408e16c90a1ec4f5314129105c9f67889e4c996f5113c6b54d5d09766d"
@@ -150,10 +154,6 @@
   "content/pages/blog/uses.md": {
     "prompt": "v1",
     "src": "sha256:159b6c5a5a5f11b44791ec0ba5f7c2271e610c1ca66ed9263a95fc518e93f60c"
-  },
-  "content/pages/home.md": {
-    "prompt": "v1",
-    "src": "sha256:c9e6a7789c173f20eddddc56c7a32553a83c2595bc9eb15d7c77dbe263b89d4a"
   },
   "content/pages/nginx server_name 的反常理行为.md": {
     "prompt": "v1",

@@ -179,6 +179,11 @@
     "date": "2025-09-09",
     "lastMod": "2026-09-28"
   },
+  "content/pages/blog/home.md": {
+    "hash": "f799a087d99b920b9c22c05558d1bf54e21fc9a9653434fd7f95de200d74c190",
+    "date": "2026-09-29",
+    "lastMod": "2026-09-29"
+  },
   "content/pages/blog/now.md": {
     "hash": "3fd99addce25299f415e60f6644cd65ab4a4da61289b9cfb56bfab31e4f88b67",
     "date": "2026-09-29",
@@ -186,11 +191,6 @@
   },
   "content/pages/blog/uses.md": {
     "hash": "484c8faa7a7d82f25b8e212ba1d921ac067df12cf51a2aa902eb7f02bd7734fa",
-    "lastMod": "2026-09-29"
-  },
-  "content/pages/home.md": {
-    "hash": "6ca197e1dc61cd959d16f60ec56c93f63df14440d1845e39da194967b40f7b55",
-    "date": "2026-09-29",
     "lastMod": "2026-09-29"
   },
   "content/pages/nginx server_name 的反常理行为.md": {
