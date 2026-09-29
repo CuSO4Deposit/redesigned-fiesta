@@ -2,8 +2,8 @@
 
 :root {
   --nc-font-sans:
-    "Noto Serif SC", "Source Han Serif SC", "Songti SC", "SimSun", Georgia,
-    "Times New Roman", serif;
+    "Noto Serif", "Noto Serif SC", "Source Han Serif SC", "Songti SC", "SimSun",
+    Georgia, "Times New Roman", serif;
   --nc-font-mono:
     ui-monospace, "JetBrains Mono", "SFMono-Regular", Consolas, monospace;
 
