@@ -1,7 +1,7 @@
 ---
 title: What do these mojibake mean? - UTF-8 Encoding Scheme Exploration
 date: 2021-12-08
-lastMod: 2026-09-28
+lastMod: 2021-12-08
 tags:
   - Unicode
 categories:

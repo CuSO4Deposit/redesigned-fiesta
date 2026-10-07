@@ -2,7 +2,7 @@
 title: The Counterintuitive Behavior of nginx server_name
 ai: translated
 date: 2024-08-24
-lastMod: 2026-09-28
+lastMod: 2024-08-24
 tags:
 - nginx
 categories:

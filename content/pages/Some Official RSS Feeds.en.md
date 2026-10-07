@@ -1,7 +1,7 @@
 ---
 title: Some Official RSS Feeds
 date: 2025-10-13
-lastMod: 2026-09-28
+lastMod: 2025-10-13
 tags:
   - RSS
 categories:

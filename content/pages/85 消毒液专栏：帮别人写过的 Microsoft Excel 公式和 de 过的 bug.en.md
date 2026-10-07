@@ -2,7 +2,7 @@
 title: "85 Disinfectant Column: Microsoft Excel Formulas I Wrote for Others and Bugs I Debugged"
 ai: translated
 date: 2026-01-17
-lastMod: 2026-09-28
+lastMod: 2026-01-17
 tags:
 - Microsoft
 categories:

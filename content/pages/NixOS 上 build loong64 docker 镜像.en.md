@@ -2,7 +2,7 @@
 title: Building loong64 Docker Images on NixOS
 ai: translated
 date: 2025-06-20
-lastMod: 2026-09-28
+lastMod: 2025-06-20
 tags:
 - docker
 - loong

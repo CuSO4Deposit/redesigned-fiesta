@@ -1,7 +1,7 @@
 ---
 title: Configure Maunium Stickerpicker for Element
 date: 2024-05-05
-lastMod: 2026-09-28
+lastMod: 2024-05-05
 tags:
   - Element
   - Matrix

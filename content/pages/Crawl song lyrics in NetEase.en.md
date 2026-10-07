@@ -1,7 +1,7 @@
 ---
 title: Crawl song lyrics in NetEase
 date: 2022-02-08
-lastMod: 2026-09-28
+lastMod: 2022-02-08
 tags:
 categories:
 slug: netease-lyrics

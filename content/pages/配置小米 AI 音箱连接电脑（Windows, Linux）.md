@@ -1,7 +1,7 @@
 ---
 title: "配置小米 AI 音箱连接电脑（Windows, Linux）"
 date: 2025-10-20
-lastMod: 2026-09-28
+lastMod: 2025-10-20
 tags:
 - Bluetooth
 - Linux

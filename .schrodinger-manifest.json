@@ -2,182 +2,182 @@
   "content/pages/404岛主.md": {
     "hash": "234a126f8f2611a68e12a9e726800194cd00d1f9e7b395fed16079831f9bd5be",
     "date": "2024-07-04",
-    "lastMod": "2026-09-28"
+    "lastMod": "2024-07-04"
   },
   "content/pages/85 消毒液专栏：帮别人写过的 Microsoft Excel 公式和 de 过的 bug.md": {
     "hash": "210916c6a67e397c581af9ac199afadda99f56d0b73a1af8188de3de2482065d",
     "date": "2026-01-17",
-    "lastMod": "2026-09-28"
+    "lastMod": "2026-01-17"
   },
   "content/pages/A Simple Terraria Chest Organization System.md": {
     "hash": "b626ea5e00206af5167805d65ff8af5bd5aa118cc9570b1a5a4e7cf312de237d",
     "date": "2023-07-11",
-    "lastMod": "2026-09-28"
+    "lastMod": "2023-07-11"
   },
   "content/pages/An alternative solution to direnv dropping aliases and functions.md": {
     "hash": "dfcfdabecf5fc564138c3d0cd9f9863099edff3afcb546a1badc06760ad949eb",
     "date": "2025-10-12",
-    "lastMod": "2026-09-28"
+    "lastMod": "2025-10-12"
   },
   "content/pages/Basic Operations on Datatypes in Nix.md": {
     "hash": "289ebe0d641956a7c2c566d649e366f565dc64000d1af6b91a3ef5fab051eb81",
     "date": "2024-07-09",
-    "lastMod": "2026-09-28"
+    "lastMod": "2024-07-09"
   },
   "content/pages/Big Data System Lab Note.md": {
     "hash": "aa80a64f8cbe54bb11f7639dc54a36906fc6d6effd2aa7cb0acba2bb57150cec",
     "date": "2023-10-09",
-    "lastMod": "2026-09-28"
+    "lastMod": "2023-10-09"
   },
   "content/pages/Change Font in Hexo Cactus Theme.md": {
     "hash": "433d30c0a9b65e2a3092caaa92f5e549c4f7c2e252f83dfe26b114fa040457de",
     "date": "2023-04-06",
-    "lastMod": "2026-09-28"
+    "lastMod": "2023-04-06"
   },
   "content/pages/Clangd cannot find standard header.md": {
     "hash": "2a025d8f9f6ccd5141806060ca4935cf60440b917147823872a80a2bde939c54",
     "date": "2024-01-15",
-    "lastMod": "2026-09-28"
+    "lastMod": "2024-01-15"
   },
   "content/pages/Configure Maubot.md": {
     "hash": "30a850e18cfe6d47758ca929e2d5afaa547af621a361530fbf1b4945a2a224bc",
     "date": "2023-05-18",
-    "lastMod": "2026-09-28"
+    "lastMod": "2023-05-18"
   },
   "content/pages/Configure Maunium Stickerpicker for Element.md": {
     "hash": "6ff22ccf182752a31c5440d9a1f8361e3bb906b42f8b32351fafea17e363b01c",
     "date": "2024-05-05",
-    "lastMod": "2026-09-28"
+    "lastMod": "2024-05-05"
   },
   "content/pages/Configure Vim on Linux Mint 20.03.md": {
     "hash": "03374711e81d33165485dc12b7ee7ca704040cb7f98158c4d897a55fe624b0f9",
     "date": "2022-02-12",
-    "lastMod": "2026-09-28"
+    "lastMod": "2022-02-12"
   },
   "content/pages/Configure gVim on Windows.md": {
     "hash": "c771d4606d7b4b0e46574d075ae167d22ae19d45fffdb718fb73a74ba408dd45",
     "date": "2021-10-02",
-    "lastMod": "2026-09-28"
+    "lastMod": "2021-10-02"
   },
   "content/pages/Crawl song lyrics in NetEase.md": {
     "hash": "d26446aca535d0958c65ff133c8127e9eca733bb9826c24d355cae6f96ea209e",
     "date": "2022-02-08",
-    "lastMod": "2026-09-28"
+    "lastMod": "2022-02-08"
   },
   "content/pages/Docstrings != Multiline strings.md": {
     "hash": "3112f5a73e7270c34fffe395f30902d64cc029d6482843c696971386a02c8466",
     "date": "2025-02-28",
-    "lastMod": "2026-09-28"
+    "lastMod": "2025-02-28"
   },
   "content/pages/Dual Boot Win10 and Linux Mint.md": {
     "hash": "920d9716aa3288541be1ebd34b03c32a09598711ffd479d1522c628cdb784eb2",
     "date": "2022-01-22",
-    "lastMod": "2026-09-28"
+    "lastMod": "2022-01-22"
   },
   "content/pages/Functional Programming.md": {
     "hash": "07a2fe10c968f502784aab5179f2db5092db34e5ff892f223bec69a338b45274",
     "date": "2024-06-30",
-    "lastMod": "2025-10-18"
+    "lastMod": "2024-06-30"
   },
   "content/pages/How to type annotate a Gzipfile in Python?.md": {
     "hash": "77215d3a4fa2fa14d278e9277e7e0cf56dc7059869e042df7e022a35212bf132",
     "date": "2024-10-05",
-    "lastMod": "2026-09-28"
+    "lastMod": "2024-10-05"
   },
   "content/pages/Leetcode 142 - Linked List Cycle II.md": {
     "hash": "990b3f4330ae4fc50f2e953d2a0e2ee2af43089f9ae4204ccec346510db21c1e",
     "date": "2023-04-26",
-    "lastMod": "2026-09-28"
+    "lastMod": "2023-04-26"
   },
   "content/pages/Manipulating Directories - Shell Builtins cd pushd and popd.md": {
     "hash": "a65593c5d0df77d1ad501eaf12eaff940cfb3dad07b51fa3a89c272cfde5e8d1",
     "date": "2025-09-04",
-    "lastMod": "2026-09-28"
+    "lastMod": "2025-09-04"
   },
   "content/pages/Markdown - Syntaxes that I don't Know.md": {
     "hash": "84c1aee122085af508057f5ec07edb90fb7663754c4ab27ab856ebb48bd6440b",
     "date": "2025-02-25",
-    "lastMod": "2026-09-28"
+    "lastMod": "2025-02-25"
   },
   "content/pages/Next build stuck on \"Creating an optimized production build\" forever.md": {
     "hash": "a8ff176b9cecc7a145b91db6bbc3fd21253cdda23ce6a07a4fed495aea08c5db",
     "date": "2025-06-20",
-    "lastMod": "2026-09-28"
+    "lastMod": "2025-06-20"
   },
   "content/pages/Nix Language Basics.md": {
     "hash": "68e58adf453e20c36cd905b8170ce398e186c65fca346e62b06a2094792c58be",
     "date": "2024-06-30",
-    "lastMod": "2026-09-28"
+    "lastMod": "2024-06-30"
   },
   "content/pages/Nix.md": {
     "hash": "145eaef005d1ac79613c50c0e1618a0140efe71fc132ba5a94143cdb7506891a",
     "date": "2024-06-30",
-    "lastMod": "2025-10-18"
+    "lastMod": "2024-06-30"
   },
   "content/pages/NixOS 上 build loong64 docker 镜像.md": {
     "hash": "bbbe3249a02abf5701a870f520abbee9de4e9388c1b3831b943cde8e5c55945b",
     "date": "2025-06-20",
-    "lastMod": "2026-09-28"
+    "lastMod": "2025-06-20"
   },
   "content/pages/Probability of Christmas on Wednesday.md": {
     "hash": "516f46e5dbd8414caebac31900557f4bb73f8fda48340f7e35d59f7fd43d0a84",
     "date": "2021-10-14",
-    "lastMod": "2026-09-28"
+    "lastMod": "2021-10-14"
   },
   "content/pages/Setup remote server pubkey login.md": {
     "hash": "b15da6462efb1a507fe494d3fc3b60c9107f63f371bba602fcc69f9175042de8",
     "date": "2024-08-18",
-    "lastMod": "2026-09-28"
+    "lastMod": "2024-08-18"
   },
   "content/pages/Some Official RSS Feeds.md": {
     "hash": "2b57d38fc2f6629c2ac156a79051ea22ab4592634de69628609671a51122f01e",
     "date": "2025-10-13",
-    "lastMod": "2026-09-28"
+    "lastMod": "2025-10-13"
   },
   "content/pages/Tabs in vim.md": {
     "hash": "259d5e8d8ba5c3af6069503bc8f1c7fe3db12f8759865bb1d6db77372ac1845f",
     "date": "2024-10-11",
-    "lastMod": "2026-09-28"
+    "lastMod": "2024-10-11"
   },
   "content/pages/Terraria Herb Farm Reminder.md": {
     "hash": "018a90a9d13e5878caf73261a335c1909d72b916d457ccf0986671965c311085",
     "date": "2023-09-08",
-    "lastMod": "2026-09-28"
+    "lastMod": "2023-09-08"
   },
   "content/pages/Terraria Potions Quickref.md": {
     "hash": "f96809af07057ee661adbdf53b85f0d68ed311c40ccdba745f1aa384769fc1bc",
     "date": "2023-08-28",
-    "lastMod": "2026-09-28"
+    "lastMod": "2023-08-28"
   },
   "content/pages/Terraria Text Color.md": {
     "hash": "8c01f1e674214f1fb58d058bce9f5c679c440cd4db828892e8c8686d1ee98851",
     "date": "2023-05-20",
-    "lastMod": "2025-10-18"
+    "lastMod": "2023-05-20"
   },
   "content/pages/Terraria 数据目录.md": {
     "hash": "9ace0feb8069e5fe11ad93d4e9fbe1eaa1e8309af2b63b3857bc931aa6eb0867",
     "date": "2025-07-08",
-    "lastMod": "2026-09-28"
+    "lastMod": "2025-07-08"
   },
   "content/pages/Use flakes within a git repo without commiting flake.nix.md": {
     "hash": "00f7dec599b467b30a6c2930ba64be2173f23ae3bd1ceb268ec76feffa2adec5",
     "date": "2025-09-12",
-    "lastMod": "2026-09-28"
+    "lastMod": "2025-09-12"
   },
   "content/pages/Vim commands quickref.md": {
     "hash": "0d470d98c1f97f227db6d7aa5c78794656b37a999b9a70ff5580ed73b6afc228",
     "date": "2021-10-04",
-    "lastMod": "2026-09-28"
+    "lastMod": "2021-10-04"
   },
   "content/pages/What do these mojibake mean? - UTF-8 Encoding Scheme Exploration.md": {
     "hash": "beee6b94c0704a32455a142646db699838d2ea6408195940679bbd10f192b862",
     "date": "2021-12-08",
-    "lastMod": "2026-09-28"
+    "lastMod": "2021-12-08"
   },
   "content/pages/Zustand 笔记.md": {
     "hash": "e5d9b9985055e861673d396bd1034ec85b1738353334e47baa26dde01e3107e7",
     "date": "2025-09-09",
-    "lastMod": "2026-09-28"
+    "lastMod": "2025-09-09"
   },
   "content/pages/blog/home.md": {
     "hash": "f799a087d99b920b9c22c05558d1bf54e21fc9a9653434fd7f95de200d74c190",
@@ -191,66 +191,67 @@
   },
   "content/pages/blog/uses.md": {
     "hash": "484c8faa7a7d82f25b8e212ba1d921ac067df12cf51a2aa902eb7f02bd7734fa",
+    "date": "2026-09-29",
     "lastMod": "2026-09-29"
   },
   "content/pages/nginx server_name 的反常理行为.md": {
     "hash": "f379ca48bee504c9a5c3b42486bb946a85493e8984cd9a2c4fbafb530a320983",
     "date": "2024-08-24",
-    "lastMod": "2026-09-28"
+    "lastMod": "2024-08-24"
   },
   "content/pages/type unicode characters in Linux (most GTK- or Qt- based applications).md": {
     "hash": "10eeab4604bdf1f19864e6883b12d0232c6dbd1097f70e88fb936024ae880881",
     "date": "2025-09-26",
-    "lastMod": "2026-09-28"
+    "lastMod": "2025-09-26"
   },
   "content/pages/️ LLM Prompts.md": {
     "hash": "0847ea5a200cedd215f9e99fe13c0366e7c526a46f65ca5449d5961d44821328",
     "date": "2025-03-04",
-    "lastMod": "2026-09-28"
+    "lastMod": "2025-03-04"
   },
   "content/pages/为什么刷怪场刷不出你想要的怪？.md": {
     "hash": "0e55d80c011cba544f4d0154bae9129767ec6436e7865c2d5305aee57fcf1b51",
     "date": "2024-07-04",
-    "lastMod": "2026-09-28"
+    "lastMod": "2024-07-04"
   },
   "content/pages/为小米手环配置Zepp Life的开源替代.md": {
     "hash": "281d51b0fba4160f44e8a9b5a6678db6fd1bbf907629f682c5da3a57a4993381",
     "date": "2023-01-22",
-    "lastMod": "2026-09-28"
+    "lastMod": "2023-01-22"
   },
   "content/pages/为本地运行的服务配置域名访问.md": {
     "hash": "1eba0ae51f56c74302225e4e48f8c37da5e37ea55139a0a61b03638a41800c38",
     "date": "2024-08-24",
-    "lastMod": "2026-09-28"
+    "lastMod": "2024-08-24"
   },
   "content/pages/光之女皇战斗笔记.md": {
     "hash": "d00121f6eeee0bb72b2216a41bd55f94f5116c5f246a43ed5bc867dcceca6a5d",
     "date": "2023-07-10",
-    "lastMod": "2026-09-28"
+    "lastMod": "2023-07-10"
   },
   "content/pages/区分 USB 接口类型的方法.md": {
     "hash": "eca49da385804bb88576a5d6a9d85d207d8bcad7a34d1d81adc4d65f7a059dd6",
     "date": "2024-08-19",
-    "lastMod": "2026-09-28"
+    "lastMod": "2024-08-19"
   },
   "content/pages/单链表的含环和相交性质探究过程记录.md": {
     "hash": "6c2dfaf621b1479e34571b7a579b5a6441df0e0c33d6dc00f9db669f96309391",
     "date": "2021-09-22",
-    "lastMod": "2026-09-28"
+    "lastMod": "2021-09-22"
   },
   "content/pages/恋愛フロップス 观看复盘记录.md": {
     "hash": "71582ba06c40a0dc52a8e543a863cf649bf19d2bcff4945fcfcd081330ea30b9",
     "date": "2025-05-23",
-    "lastMod": "2026-09-28"
+    "lastMod": "2025-05-23"
   },
   "content/pages/找出所有依赖于特定 nix 包的其他包 - 记录 Qt5 被 deprecate 的修复.md": {
     "hash": "b2cfa394516bde7eafd6d0f469ea3227d7d6b638cb04b431cdedf790b386ce06",
     "date": "2025-08-30",
-    "lastMod": "2026-09-28"
+    "lastMod": "2025-08-30"
   },
   "content/pages/配置小米 AI 音箱连接电脑（Windows, Linux）.md": {
     "hash": "09e711b49e78688a842e77b7a08ca15dded7843b43402f1254709dbf46f571bc",
     "date": "2025-10-20",
-    "lastMod": "2026-09-28"
+    "lastMod": "2025-10-20"
   }
 }

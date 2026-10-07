@@ -1,7 +1,7 @@
 ---
 title: Clangd cannot find standard header
 date: 2024-01-15
-lastMod: 2026-09-28
+lastMod: 2024-01-15
 tags:
 - clangd
 - lsp

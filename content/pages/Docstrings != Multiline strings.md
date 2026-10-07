@@ -1,7 +1,7 @@
 ---
 title: "Docstrings != Multiline strings"
 date: 2025-02-28
-lastMod: 2026-09-28
+lastMod: 2025-02-28
 tags:
 - python
 categories:

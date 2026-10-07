@@ -2,7 +2,7 @@
 title: An alternative solution to direnv dropping aliases and functions
 ai: translated
 date: 2025-10-12
-lastMod: 2026-09-28
+lastMod: 2025-10-12
 tags:
 - Nix
 - shell

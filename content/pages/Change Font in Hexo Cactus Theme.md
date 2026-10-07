@@ -1,7 +1,7 @@
 ---
 title: Change Font in Hexo Cactus Theme
 date: 2023-04-06
-lastMod: 2026-09-28
+lastMod: 2023-04-06
 tags:
 - font
 - Hexo

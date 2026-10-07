@@ -1,7 +1,7 @@
 ---
 title: Configuring an Open-Source Alternative to Zepp Life for a Xiaomi Mi Band
 date: 2023-01-22
-lastMod: 2026-09-28
+lastMod: 2023-01-22
 tags:
 categories:
 slug: gadgetbridge

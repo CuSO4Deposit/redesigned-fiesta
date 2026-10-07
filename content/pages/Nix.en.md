@@ -2,7 +2,7 @@
 title: Nix
 ai: translated
 date: 2024-06-30
-lastMod: 2025-10-18
+lastMod: 2024-06-30
 tags:
 categories:
 ---

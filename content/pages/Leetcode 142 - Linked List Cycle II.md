@@ -1,7 +1,7 @@
 ---
 title: Leetcode 142 - Linked List Cycle II
 date: 2023-04-26
-lastMod: 2026-09-28
+lastMod: 2023-04-26
 tags:
 - LeetCode
 - linklist

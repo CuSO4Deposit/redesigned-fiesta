@@ -1,7 +1,7 @@
 ---
 title: Configure gVim on Windows
 date: 2021-10-02
-lastMod: 2026-09-28
+lastMod: 2021-10-02
 tags:
 - vim
 categories:

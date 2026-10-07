@@ -1,7 +1,7 @@
 ---
 title: Finding All Other Packages That Depend on a Specific Nix Package - Notes on Fixing the Qt5 Deprecation
 date: 2025-08-30
-lastMod: 2026-09-28
+lastMod: 2025-08-30
 tags:
   - Nix
   - NixOS

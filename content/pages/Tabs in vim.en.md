@@ -1,7 +1,7 @@
 ---
 title: Tabs in vim
 date: 2024-10-11
-lastMod: 2026-09-28
+lastMod: 2024-10-11
 tags:
   - Neovim
   - Nixvim

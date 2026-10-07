@@ -1,7 +1,7 @@
 ---
 title: Terraria Text Color
 date: 2023-05-20
-lastMod: 2025-10-18
+lastMod: 2023-05-20
 tags:
   - Terraria
 categories:

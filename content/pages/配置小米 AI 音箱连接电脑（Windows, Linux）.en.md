@@ -1,7 +1,7 @@
 ---
 title: "Configuring a Xiaomi AI Speaker to Connect to a Computer (Windows, Linux)"
 date: 2025-10-20
-lastMod: 2026-09-28
+lastMod: 2025-10-20
 tags:
   - Bluetooth
   - Linux

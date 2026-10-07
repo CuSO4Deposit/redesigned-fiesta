@@ -122,8 +122,15 @@ h3 {
 }
 
 .post-meta {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.25rem 1rem;
   color: var(--nc-tx-2);
   font-size: 0.85rem;
+}
+
+.post-meta time {
+  font-variant-numeric: tabular-nums;
 }
 
 .tags span {

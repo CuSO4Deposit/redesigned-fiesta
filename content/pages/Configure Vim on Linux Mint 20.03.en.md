@@ -1,7 +1,7 @@
 ---
 title: Configure Vim on Linux Mint 20.03
 date: 2022-02-12
-lastMod: 2026-09-28
+lastMod: 2022-02-12
 tags:
   - Linux
   - vim

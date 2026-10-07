@@ -1,7 +1,7 @@
 ---
 title: Configure Maubot
 date: 2023-05-18
-lastMod: 2026-09-28
+lastMod: 2023-05-18
 tags:
 - Matrix
 - Maunium

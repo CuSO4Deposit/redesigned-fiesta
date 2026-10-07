@@ -1,7 +1,7 @@
 ---
 title: How to type annotate a Gzipfile in Python?
 date: 2024-10-05
-lastMod: 2026-09-28
+lastMod: 2024-10-05
 tags:
 - lsp
 - python

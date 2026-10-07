@@ -1,7 +1,7 @@
 ---
 title: "Markdown - Syntaxes that I don't Know"
 date: 2025-02-25
-lastMod: 2026-09-28
+lastMod: 2025-02-25
 tags:
 - Markdown
 categories:

@@ -1,7 +1,7 @@
 ---
 title: Probability of Christmas on Wednesday
 date: 2021-10-14
-lastMod: 2026-09-28
+lastMod: 2021-10-14
 tags:
 - mathematica
 - NumberTheory

@@ -1,7 +1,7 @@
 ---
 title: nginx server_name 的反常理行为
 date: 2024-08-24
-lastMod: 2026-09-28
+lastMod: 2024-08-24
 tags:
 - nginx
 categories:

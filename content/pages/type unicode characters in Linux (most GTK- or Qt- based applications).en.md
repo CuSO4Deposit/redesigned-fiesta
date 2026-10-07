@@ -1,7 +1,7 @@
 ---
 title: type unicode characters in Linux (most GTK- or Qt- based applications)
 date: 2025-09-26
-lastMod: 2026-09-28
+lastMod: 2025-09-26
 tags:
   - Linux
   - Unicode

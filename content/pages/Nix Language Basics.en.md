@@ -2,7 +2,7 @@
 title: Nix Language Basics
 ai: translated
 date: 2024-06-30
-lastMod: 2026-09-28
+lastMod: 2024-06-30
 tags:
 - Nix
 categories:

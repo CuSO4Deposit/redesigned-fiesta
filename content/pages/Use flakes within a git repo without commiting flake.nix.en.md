@@ -1,7 +1,7 @@
 ---
 title: Use flakes within a git repo without commiting flake.nix
 date: 2025-09-12
-lastMod: 2026-09-28
+lastMod: 2025-09-12
 tags:
   - Flakes
   - Nix

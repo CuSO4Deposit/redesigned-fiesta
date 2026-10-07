@@ -2,7 +2,7 @@
 title: ⚛️💡 LLM Prompts
 ai: translated
 date: 2025-03-04
-lastMod: 2026-09-28
+lastMod: 2025-03-04
 tags:
 - persistent-page
 categories:

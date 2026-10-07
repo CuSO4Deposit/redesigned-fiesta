@@ -1,7 +1,7 @@
 ---
 title: 找出所有依赖于特定 nix 包的其他包 - 记录 Qt5 被 deprecate 的修复
 date: 2025-08-30
-lastMod: 2026-09-28
+lastMod: 2025-08-30
 tags:
 - Nix
 - NixOS

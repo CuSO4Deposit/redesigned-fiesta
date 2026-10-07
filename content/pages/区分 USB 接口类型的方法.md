@@ -1,7 +1,7 @@
 ---
 title: 区分 USB 接口类型的方法
 date: 2024-08-19
-lastMod: 2026-09-28
+lastMod: 2024-08-19
 tags:
 categories:
 slug: usb-connector-types

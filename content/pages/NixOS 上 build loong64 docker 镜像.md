@@ -1,7 +1,7 @@
 ---
 title: NixOS 上 build loong64 docker 镜像
 date: 2025-06-20
-lastMod: 2026-09-28
+lastMod: 2025-06-20
 tags:
 - docker
 - loong

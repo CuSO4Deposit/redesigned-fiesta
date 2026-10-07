@@ -2,7 +2,7 @@
 title: "Next build stuck on \"Creating an optimized production build\" forever"
 ai: translated
 date: 2025-06-20
-lastMod: 2026-09-28
+lastMod: 2025-06-20
 tags:
 - nodejs
 - nextjs

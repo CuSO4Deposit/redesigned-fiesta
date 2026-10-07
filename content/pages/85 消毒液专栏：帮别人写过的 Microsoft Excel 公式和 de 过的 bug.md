@@ -1,7 +1,7 @@
 ---
 title: 85 消毒液专栏：帮别人写过的 Microsoft Excel 公式和 de 过的 bug
 date: 2026-01-17
-lastMod: 2026-09-28
+lastMod: 2026-01-17
 tags:
 - Microsoft
 categories:

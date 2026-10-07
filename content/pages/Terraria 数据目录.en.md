@@ -1,7 +1,7 @@
 ---
 title: Terraria Data Directory
 date: 2025-07-08
-lastMod: 2026-09-28
+lastMod: 2025-07-08
 tags:
   - Terraria
 categories:

@@ -1,7 +1,7 @@
 ---
 title: Manipulating Directories - Shell Builtins cd pushd and popd
 date: 2025-09-04
-lastMod: 2026-09-28
+lastMod: 2025-09-04
 tags:
 - shell
 categories:

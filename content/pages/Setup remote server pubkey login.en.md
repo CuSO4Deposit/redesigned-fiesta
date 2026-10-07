@@ -2,7 +2,7 @@
 title: Setup remote server pubkey login
 ai: translated
 date: 2024-08-18
-lastMod: 2026-09-28
+lastMod: 2024-08-18
 tags:
 categories:
 slug: ssh-pubkey-login

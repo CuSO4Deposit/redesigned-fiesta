@@ -1,7 +1,7 @@
 ---
 title: Vim commands quickref
 date: 2021-10-04
-lastMod: 2026-09-28
+lastMod: 2021-10-04
 tags:
 - quickref
 - vim
