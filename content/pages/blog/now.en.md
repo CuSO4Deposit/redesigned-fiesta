@@ -1,7 +1,7 @@
 ---
 title: Now
 date: 2026-09-29
-lastMod: 2026-09-29
+lastMod: 2026-10-08
 tags:
 categories:
 url: /en/now/
@@ -15,31 +15,31 @@ _Last updated: 2026-09-29_
 
 ## Work
 
-  + Working on algorithms at a startup. Currently living the 996 life.
+  + I work on algorithms at a startup. Currently living the 996 life.
 
 
   + I spend most of my waking hours here.
 
 ## In Real Life
 
-  + ~~Being a boozer.~~ I've been away from alcohol for a while now, and I expect I'll need to stay away for a long time to come.
+  + ~~A heavy drinker~~. I've been staying away from alcohol for a while now, and I'll probably need to keep it up for a long time yet.
 
 
-  + Taking sleep seriously.
+  + Sleeping seriously.
 
 ## In the Cyber World
 
-  + I'm spending less and less time playing rhythm games. Right now I mainly play Arcaea.
+  + I've been spending less and less time playing rhythm games. Currently mainly playing Arcaea.
 
 
   + Reading *Principles*.
 
-  + I maintain a photo management system~~, so I've been tagging photos from way back~~, but lately I haven't had much time to tag photos.
+  + I maintain a photo management system ~~, so I'm currently tagging photos from a long time ago~~ — lately I haven't had much time to tag photos.
 
-  + I hacked together a [regex crossword game](https://github.com/cuSO4Deposit/regex-crossword), so I won't get too bored when I'm out with only my phone.
+  + I built a [regex crossword game](https://github.com/cuSO4Deposit/regex-crossword), so that I won't be too bored when I'm out with only my phone.
 
-  + I'm playing [Terraria](https://www.terraria.org/) 1.4.5. This is my 900th hour playing Terraria.
+  + I'm experiencing [Terraria](https://www.terraria.org/) 1.4.5. This is my 900th hour playing Terraria.
 
-## What's Influencing Me
+## What's Influenced Me
 
-  + I happened to come across a [CDC blog post about handwashing](https://www.cdc.gov/clean-hands/about/index.html), so I'm **practicing good hygiene**.
+  + I happened to come across [a CDC blog post about handwashing](https://www.cdc.gov/clean-hands/about/index.html), so I'm now into **hygiene**.
