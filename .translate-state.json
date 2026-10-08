@@ -143,6 +143,10 @@
     "prompt": "v1",
     "src": "sha256:c337c141525cb587ea3aef444b0107c764c56b43e618f934cfc1fe474dcf3408"
   },
+  "content/pages/blog/friends.md": {
+    "prompt": "v1",
+    "src": "sha256:4870e682d52e3fa79fa1d301ca6bb2a5ed5cd167a1d642aa322de087ff71eb0f"
+  },
   "content/pages/blog/home.md": {
     "prompt": "v1",
     "src": "sha256:f21efb02f8473cf62f6d2608cbf21689998cbcf790e9caa8f8474fbf9826b115"
