@@ -1,7 +1,6 @@
 ---
 title: Uses
-date: 2026-09-29
-lastMod: 2026-09-29
+lastMod: 2026-10-08
 tags:
 categories:
 summary: "Hardware and software I use, sorted by how far I'd vouch for them."
@@ -11,7 +10,7 @@ url: /uses/
 Hardware and software I use, sorted by how far I'd vouch for them. Tier 1 is what I'd pick again and can say why; Tier 2 is what I'm using now but haven't compared enough to recommend.
 
 
-_Last updated: 2026-09-29_
+_Last updated: 2026-10-08_
 
 # Tier 1 / recommended
 
@@ -21,6 +20,11 @@ _Last updated: 2026-09-29_
 
 
     + 因为这是我能找到的最轻的笔记本电脑。通常使用笔记本电脑时我只需要一个 ssh 终端，因此我目前仍可接受它较低的性能。
+
+
+  + Laptop: [Macbook Neo](https://www.apple.com/macbook-neo/) with 8 GB RAM and 256 GB SSD
+
+    + 性价比很高，性能也还不错。
 
 
   + Tablet: [iPad Pro, 11-inch (3rd generation)](https://support.apple.com/en-us/111897)

@@ -1,7 +1,6 @@
 ---
 title: Uses
-date: 2026-09-29
-lastMod: 2026-09-29
+lastMod: 2026-10-08
 tags:
 categories:
 summary: "\"Hardware and software I use, sorted by how far I'd vouch for them.\""
@@ -12,7 +11,7 @@ ai: translated
 Hardware and software I use, sorted by how far I'd vouch for them. Tier 1 is what I'd pick again and can say why; Tier 2 is what I'm using now but haven't compared enough to recommend.
 
 
-_Last updated: 2026-09-29_
+_Last updated: 2026-10-08_
 
 # Tier 1 / recommended
 
@@ -21,17 +20,22 @@ _Last updated: 2026-09-29_
   + Laptop: [Toshiba Dynabook G83/M](https://dynabook.com/business-mobile-notebook-g-series/g83m-jan-2019-13-3-inch.html) with 8 GB RAM and 256 GB SSD
 
 
-    + Because it's the lightest laptop I could find. When using a laptop, I usually only need an ssh terminal, so I can accept its lower performance for now.
+    + Because it's the lightest laptop I could find. When I usually use a laptop I only need an ssh terminal, so I can still accept its lower performance for now.
+
+
+  + Laptop: [Macbook Neo](https://www.apple.com/macbook-neo/) with 8 GB RAM and 256 GB SSD
+
+    + Great value for money, and the performance is pretty good too.
 
 
   + Tablet: [iPad Pro, 11-inch (3rd generation)](https://support.apple.com/en-us/111897)
 
-    + The iPad Pro is the best friend of rhythm games: low latency and 120 fps.
+    + The iPad Pro is a music game's best friend: low latency and 120 fps.
 
 
   + EBook: MiReader
 
-    + A cheap and good option; it works by importing epub.
+    + A cheap and easy-to-use option, works by importing epub.
 
 
 ## Software (on GNU/Linux)
@@ -39,7 +43,7 @@ _Last updated: 2026-09-29_
   + Backup: [restic](https://restic.net/)
 
 
-    + With a WebDAV, all my off-site backups rely on restic
+    + Paired with a webdav, all my off-site backups rely on restic
 
 
   + Browser: [Firefox](https://www.firefox.com/)
@@ -52,7 +56,7 @@ _Last updated: 2026-09-29_
 
   + Newsletter: [RSSHub](https://docs.rsshub.app/) + [Miniflux](https://miniflux.app/)
 
-    + The former is used to convert content into RSS; the latter is an RSS aggregator.
+    + The former is used to convert content into RSS, the latter is an RSS aggregator.
 
 
   + Note: [QuillPad](https://f-droid.org/en/packages/io.github.quillpad)
@@ -63,12 +67,12 @@ _Last updated: 2026-09-29_
 
   + Search Engine: [Duckduckgo Lite](https://lite.duckduckgo.com/)
 
-    + Because it returns pure HTML, it's fast enough, and the page is simple.
+    + Because it returns pure html, it's fast enough and the page is simple.
 
 
   + Terminal: [Ghostty](https://ghostty.org/)
 
-    + Because it doesn't need much configuration. I only have 4 lines of configuration in total.
+    + Because it doesn't need much configuration. I only have 4 lines of config in total.
 
 
   + Text Editor: [Nixvim](https://nix-community.github.io/nixvim/)
